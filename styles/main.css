@@ -1,9 +1,18 @@
 @import './normalize.css';
 @import './fonts.css';
+@import './colors.css';
 
-*{
+@import './menu.css';
+@import './header.css';
+
+
+* {
     box-sizing: border-box;
     font-family: Unbounded;
     font-style: 500;
+}
+
+.container {
+    padding: 0 195px ;
 }
 

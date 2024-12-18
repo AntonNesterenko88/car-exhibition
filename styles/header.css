@@ -1,0 +1,15 @@
+.header {
+    height: 1130px;
+    padding-top: 38px;
+    background: url(./images/header-background.jpg) no-repeat center/cover;
+}
+
+.header__block {
+    height: 38px;
+}
+
+.header__block_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
