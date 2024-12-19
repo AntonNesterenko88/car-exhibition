@@ -1,7 +1,7 @@
 .header {
     height: 1130px;
     padding-top: 38px;
-    background: url(./images/header-background.jpg) no-repeat center/cover;
+    background: url(../images/header-background.jpg) no-repeat center/cover;
 }
 
 .header__block {
@@ -12,4 +12,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header-logo {
+    width: 159px;
+    height: 38px;
+}
+
+.header__partners {
+    width: 575px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
