@@ -1,6 +1,6 @@
 .header {
-    height: 1130px;
-    padding-top: 38px 0 90px;
+    /* height: 1130px; */
+    padding: 38px 0 90px;
     background: url(../images/header-background.jpg) no-repeat center/cover;
 }
 
