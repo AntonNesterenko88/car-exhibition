@@ -8,12 +8,21 @@
     border: 2px solid var(--main-button-border-color);
     cursor: pointer; 
     color: var(--main-button-text-color);
+    transition:0.5s, background-color 0.5s;
+}
+
+.button:hover {
+    color: var(--main-button-hover-text-color);
+    background-color:var(--main-button-hover-background-color);
+}
+
+.button:active {
+    color: var(--main-button-active-text-color);
+    background-color:var(--main-button-active-background-color);
 }
 
 .button_secondary {
     width: 282px;
-    color: var(--secondary-button-text-color);
-    background-color:var(--secondary-button-background-color);
 }
 
 

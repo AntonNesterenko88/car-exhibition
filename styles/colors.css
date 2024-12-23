@@ -5,6 +5,10 @@
     --main-background-color-button: #6C79EC;
     --main-button-border-color: #6C79EC;
     --main-button-text-color: #6C79EC;
+    --main-button-active-background-color: #4653CE;
+    --main-button-active-text-color: #FFFFFF;
+    --main-button-hover-background-color: #6C79EC;;
+    --main-button-hover-text-color: #FFFFFF;
            /* secondary-button */
     --secondary-button-background-color: #6C79EC;
     --secondary-button-text-color: #FFFFFF;
