@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Unbounded;
+    font-style: normal;
+    font-weight: 500;
+
+    src:    url(../fonts/Unbounded-Medium.woff2) format('woff2'),
+            url(../fonts/Unbounded-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Unbounded;
+    font-style: normal;
+    font-weight: 400;
+
+    src:    url(../fonts/Unbounded-Regular.woff2) format('woff2'),
+            url(../fonts/Unbounded-Regular.ttf) format('truetype');
+        
+}
