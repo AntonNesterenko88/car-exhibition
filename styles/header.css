@@ -1,20 +1,10 @@
 .header {
+    height: 1130px;
     padding: 38px 0 90px;
     background: url(../images/header-background.jpg) no-repeat center/cover;
 }
 
 .header__block {
-    height: 38px;
-}
-
-.header__block_top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header__logo {
-    width: 159px;
     height: 38px;
 }
 
@@ -24,7 +14,7 @@
     align-items: center;
     width: 575px;
     height: 36px;
-    margin-top: 50px;
+    margin-top: 76px;
 }
 
 .header__date {

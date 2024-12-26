@@ -1,0 +1,16 @@
+.museum-info {
+    padding: 150px 0 0;
+    background-color: var(--main-background-color);
+    width: 100%;
+}
+
+.museum-info__warapper {
+    display: flex;
+    width: 100%;
+    padding-bottom: 172px;
+    border-radius: 50px;
+}
+
+.museum-info__block:first-child {
+    margin-right: 160px;
+}
