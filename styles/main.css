@@ -2,10 +2,16 @@
 @import './fonts.css';
 @import './colors.css';
 
+@import './common.css';
 @import './menu.css';
 @import './header.css';
 @import './button.css';
-
+@import './logo.css';
+@import './museum-info.css';
+@import './cars.css';
+@import './photo-link.css';
+@import './programms.css';
+@import './divider.css';
 
 * {
     box-sizing: border-box;
@@ -13,13 +19,10 @@
     font-style: 500;
 }
 
-.container {
-    padding: 0 195px ;
+.body {
+    position: relative;
 }
 
-.descriptor {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-}
+
+
 
