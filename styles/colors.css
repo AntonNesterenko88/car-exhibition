@@ -1,4 +1,8 @@
 :root {
+    --main-background-color:#F6F5F5;
+    --menu-background-color: rgba(246, 245, 245, 50%);
+    --secondary-background-color: #D0E4D9;
+
         /* text */
     --main-text-color: #1E1E25;
         /* main button */

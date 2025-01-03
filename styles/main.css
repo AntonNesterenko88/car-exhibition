@@ -5,6 +5,9 @@
 @import './menu.css';
 @import './header.css';
 @import './button.css';
+@import './logo.css';
+@import './museum-info.css';
+@import './cars.css';
 
 
 * {
@@ -13,13 +16,33 @@
     font-style: 500;
 }
 
+.body {
+    position: relative;
+}
+
 .container {
     padding: 0 195px ;
+}
+
+.title {
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 86px; 
+}
+
+.subtitle {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 50px;
 }
 
 .descriptor {
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
+} 
+
+.link {
+    cursor: pointer;
 }
 
