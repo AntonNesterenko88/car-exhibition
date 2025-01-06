@@ -9,6 +9,10 @@
 
     --main-border-color: #C1C1C1;
 
+    /* competitions block */
+    --main-competitions-block-background-color:#D2E3ED;
+    --secondary-competitions-block-background-color:#353535;
+
         /* text */
     --main-text-color: #1E1E25;
     --secondary-text-color: #FFFFFF;
