@@ -2,10 +2,12 @@
     --main-background-color:#F6F5F5;
     --menu-background-color: rgba(246, 245, 245, 50%);
     --secondary-background-color: #D0E4D9;
-    --third-background-color: #C1C1C1;
+    --third-background-color: #F6F9F1;
         /* photo-link */
     --photo-link-main-background-color:#8EAAAB;
     --photo-link-secondary-background-color: #1E1E25;
+
+    --main-border-color: #C1C1C1;
 
         /* text */
     --main-text-color: #1E1E25;

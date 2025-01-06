@@ -1,5 +1,27 @@
 .programms {
-    height: 2291px;
-    padding: 240px 0 290px;
+    width: 100%;
     background-color: var(--third-background-color);
+}
+
+.programms__content {
+    padding: 240px 0;
+}
+
+.programms__info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.programms__info-item {
+    width: 490px;
+    height: 490px;
+    padding: 70px;
+    border-radius: 40px;
+    border: 2px solid var(--main-border-color);
+}
+
+.programms__info-item > .caption,
+.programms__info-item > .text {
+    margin-top: 30px;
 }
