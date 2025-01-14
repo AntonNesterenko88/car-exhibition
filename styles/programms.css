@@ -1,0 +1,62 @@
+.programms {
+    position: relative;
+    width: 100%;
+    background-color: var(--third-background-color);
+}
+
+.programms__content {
+    padding: 240px 0;
+}
+
+.programms__info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.programms__info-item {
+    width: 490px;
+    height: 490px;
+    padding: 70px;
+    border-radius: 40px;
+    border: 2px solid var(--main-border-color);
+}
+
+.programms__info-item > .caption,
+.programms__info-item > .text {
+    margin-top: 30px;
+}
+
+.programms__competitions {
+    margin-top: 160px;
+}
+
+.programms__competitions-facts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.programms__competitions-item {
+    position: relative;
+    padding: 120px 100px 0;
+    width: 750px;
+    height: 850px;
+    border-radius: 40px;
+    background-color: var(--main-competitions-block-background-color);
+}
+
+.programms__competitions-item_secondary {
+    background-color: var(--secondary-competitions-block-background-color);
+}
+
+.programms__competitions-item > .text {
+    margin-top: 30px;
+}
+
+.programms__competitions-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
