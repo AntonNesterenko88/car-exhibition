@@ -10,6 +10,8 @@
 }
 
 .divider__content {
+    position: absolute;
+    left: -60px;
     display:flex;
     align-items: center;
 }
@@ -17,14 +19,17 @@
 .divider__item {
     font-weight: 500;
     font-size: 60px;
+    margin-left: 30px;
 }
 
 .divider__item_ellipse {
-    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
     height: 85px;
     background-color: var(--ellipse-background-color);
     border-radius: 50%;
-    
 }
 
 
@@ -38,5 +43,5 @@
 
 .divider_full {
     height: 146px; 
-    padding: 30px 0;
+    padding: 30px;
 }
