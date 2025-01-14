@@ -1,4 +1,5 @@
 .programms {
+    position: relative;
     width: 100%;
     background-color: var(--third-background-color);
 }
