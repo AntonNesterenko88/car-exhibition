@@ -28,4 +28,10 @@
            /* secondary-button */
     --secondary-button-background-color: #6C79EC;
     --secondary-button-text-color: #FFFFFF;
+        /* third-button */
+    --third-button-background-color: #D0E4D9;
+    --third-button-text-color: #373737;
+        /* ticket */
+      --ticket-background-color: #FFFFFF;
+      --ticket-divider-background-color: #1E1E25;
 }

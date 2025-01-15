@@ -25,4 +25,11 @@
     width: 282px;
 }
 
+.button_third {
+    width: 100%;
+    background-color: var(--third-button-background-color);
+    color: var(--third-button-text-color);
+    border: none;
+}
+
 
