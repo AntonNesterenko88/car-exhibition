@@ -17,6 +17,8 @@
         /* text */
     --main-text-color: #1E1E25;
     --secondary-text-color: #FFFFFF;
+    --third-text-color: #9090A6;
+
         /* main button */
     --main-background-color-button: #6C79EC;
     --main-button-border-color: #6C79EC;
@@ -34,4 +36,7 @@
         /* ticket */
       --ticket-background-color: #FFFFFF;
       --ticket-divider-background-color: #1E1E25;
+      /* border */
+      --main-border-color: #9090A6;
+      --secondary-border-color: #D1D1DE;
 }

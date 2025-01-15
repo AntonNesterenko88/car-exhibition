@@ -73,3 +73,26 @@
 .price__table {
     margin-top: 50px;
 }
+
+.price__table-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 84px;
+    border-bottom: 1px solid var(--secondary-border-color);
+}
+
+.price__table-row_header {
+    align-items: start;
+    height: 54px;
+    border-bottom: 2px solid var(--main-border-color);
+}
+
+.price__table-cell {
+    width: 390px;
+}
+
+.price__table-row_header > .price__table-cell {
+    color: var(--third-text-color);
+}
+
