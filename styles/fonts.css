@@ -2,17 +2,30 @@
     font-family: Unbounded;
     font-style: normal;
     font-weight: 500;
-
-    src:    url(../fonts/Unbounded-Medium.woff2) format('woff2'),
-            url(../fonts/Unbounded-Medium.ttf) format('truetype');
+    src: url('../fonts/Unbounded-Medium.woff2') format('woff2'),
+    url('../fonts/Unbounded-Medium.ttf') format('truetype');
 }
 
 @font-face {
     font-family: Unbounded;
     font-style: normal;
     font-weight: 400;
+    src: url('../fonts/Unbounded-Regular.woff2') format('woff2'),
+    url('../fonts/Unbounded-Regular.ttf') format('truetype');
+}
 
-    src:    url(../fonts/Unbounded-Regular.woff2) format('woff2'),
-            url(../fonts/Unbounded-Regular.ttf) format('truetype');
-        
+@font-face {
+    font-family: Unbounded;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Unbounded-Light.woff2') format('woff2'),
+    url('../fonts/Unbounded-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Unbounded;
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Unbounded-Bold.woff2') format('woff2'),
+    url('../fonts/Unbounded-Bold.ttf') format('truetype');
 }

@@ -8,121 +8,595 @@
 
 </head>
 <body>
-    <header class="header">
-      <div class="container">
-        <div class="header__block header__block_top"
-
-        <nav class="navbar">
-          <div class="header__logo">
-              <img 
-                class="img"
-                src="./images/logo.png" 
-                alt="logo"
-              >
-          </div>
-            <ul class="menu">
-              <li class="menu__item">
-                  <a
-                    href="#" 
-                    class="menu__link menu__link_active"
-                  > 
-                    Участники 
+  <header class="header" id="header">
+    <div class="container">
+        <div class="menu">
+            <div class="menu__wrapper container">
+                <a href="#header" class="logo">
+                    <img 
+                        class="img"
+                        src="./images/logo.png" 
+                        alt="logo"
+                    >
                 </a>
-              </li>
-              <li class="menu__item">
-                  <a 
-                      href="#" 
-                      class="menu__link"
-                  > 
-                    Расписание 
-                  </a>
-              </li>
-              <li class="menu__item">
-                  <a 
-                    href="#" 
-                    class="menu__link"
-                  >   Активности 
-                  </a>
-              </li>
-              <li class="menu__item">
-                  <a 
-                    href="#" 
-                    class="menu__link"
-                  > Билеты 
-                  </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="header__partners">
-        <div class="header__partners_item">
-          <img 
-          src="./images/brooklands.png" 
-          alt="brooklands" 
-          class="header__image">
-        </div>
-        <div class="header__partners_item">
-          <img 
-          src="./images/sogaz.png" 
-          alt="sogas" 
-          class="header__image">
-        </div>
-        <div class="header__partners_item">
-          <img 
-          src="./images/auto.png" 
-          alt="auto.ru" 
-          class="header__image">
-        </div>
-        <div class="header__partners_item">
-          <img 
-          src="./images/clear-dew.png" 
-          alt="clear-dew" 
-          class="header__image">
+                
+                <nav class="menu__navbar">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a 
+                                href="#" 
+                                class="menu__link link"
+                            >
+                                Участники
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a 
+                                href="#" 
+                                class="menu__link link"
+                            >
+                                Расписание
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a 
+                                href="#" 
+                                class="menu__link link"
+                            >
+                                Активности
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a 
+                                href="#" 
+                                class="menu__link link"
+                            >
+                                Билеты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
 
+        <div class="header__partners">
+            <a href="#" class="link">
+                <img 
+                    class="header__img" 
+                    src="./images/brooklands.png" 
+                    alt="brooklands" 
+                />
+            </a>
+            <a href="#" class="link">
+                <img 
+                    class="header__img" 
+                    src="./images/sogaz.png" 
+                    alt="sogas" 
+                />
+            </a>
+            <a href="#" class="link">
+                <img 
+                    class="header__img" 
+                    src="./images/auto.png" 
+                    alt="auto.ru" 
+                />
+            </a>
+            <a href="#" class="link">
+                <img 
+                    class="header__img" 
+                    src="./images/clear-dew.png" 
+                    alt="clear-dew" 
+                />
+            </a>
         </div>
 
         <div class="header__date descriptor">
-        26 - 27 августа 2023
+            26 - 27 августа 2023
         </div>
+
         <h1 class="header__title title">
-        Автовыходные в усадьбе <br/>
-        Архангельское
+            Автовыходные в усадьбе Архангельское
         </h1>
 
         <div class="header__text text">
-          Выходные в атмосфере автомобильной эстетики и культуры, 
-          самые редкие и красивые 
-          <br>
-          автомобили страны, в одной из самых пейзажных локаций Москвы
+            Выходные в атмосфере автомобильной эстетики и культуры, самые редкие и красивые автомобили 
+            страны, в одной из самых пейзажных локаций Москвы
         </div>
 
-          <div class="header__buttons-wrapper">
+        <div class="header__buttons-wrapper">
             <button type="button" class="button button_secondary">
-              принять участие
+                Принять участие
             </button>
 
             <button type="button" class="button">
-              купить билет
+                купить билет
             </button>
-          </div>
+        </div>
+
+        <a href="#main" class="header__arrow">
           <div class="header__arrow">
-              <img 
-                src="./images/arrow.png" 
-                alt="arrow"
-              >
-          </div>
-      </div> 
-    </header>
+            <img 
+              src="./images/arrow.png" 
+              alt="arrow"
+            >
+            </div>
+        </a>
+    </div>
+    
    
-    <main class="main">
-        <section class="section">
+    
+</header>
 
+    <!-- <main class="main" id="main">
+        <section class="museum-info">
+            <div class="divider"></div>
+                <div class="container">
+                    <div class="museum-info__wrapper">
+                        <div class="museum-info__block">
+                            <h2 class="subtitle">
+                                Музей-заповедник 
+                                Архангельское 
+                            </h2>
+                        </div>
+                        <div class="museum-info__block">
+                            <span class="text">
+                                Усадьба Архангельское это роскошный дворцовопарковый ансамбль, 
+                                построенный в конце XVIII века. Он являлся резиденцией царской семьи 
+                                Юсуповых и в наше время приобрел народное прозвище- “Подмосковный 
+                                Версаль”. Заповедник состоит из множества аллей среди множества 
+                                зданий и более 200 скульптур и фонтанов. Усадьба также имеет выход на 
+                                набережную Москва-реки. Площадь заповедника составляет 800 га.
+                            </span>
+                        </div>
+                    </div>
+                </div>  
+        </section>  
+
+        <section class="cars">
+            <div class="divider divider_secondary"></div>
+            <div class="container">
+            <div class="cars__wrapper">
+                <div class="cars__block">
+                <div class="cars__item">
+                    <h2 class="subtitle">
+                    Автомобили
+                    </h2> 
+                    <span class="text">
+                        Редчайшие автомобили, произведенные за последние 20 лет, включая спорт, супер и гипер кары.
+                        Широкий спектр янгтаймеров, от легендарной японской JDM классики до угловатых итальянских суперкаров 80х и 90х годов. 
+                        Разнообразные классические шедевры начиная с довоенных европейских авто, заканчивая американскими масл-карами 60х и 70х годов выпуска.
+                    </span>
+
+                        <button 
+                            type="button" 
+                            class="button button_secondary cars__button"
+                        >
+                        Принять участие
+                        </button>
+    
+                </div>
+                    <div class="cars__item cars__item_picture">
+                            <img 
+                                class="cars__img"
+                                src="./images/lamborgini.png" 
+                                alt="lamborgini"
+                            >
+                    </div>
+
+                    <div class="cars__item cars__item_picture">
+                            <img 
+                                class="cars__img"
+                                src="./images/ferrari.png" 
+                                alt="ferrari"
+                            >
+                    </div>
+                    <div href="#" class="cars__item">
+                        <a class="photo-link">
+                            <div class="descriptor descriptor_secondary">
+                                Ещё фото 
+                            </div>
+                                <img 
+                                    class="photo-link__arrow"
+                                    src="./images/photo-link-arrow.png" 
+                                    alt="arrow"
+                                >
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cars__block">
+                    <div class="cars__item cars__item_full-picture">
+                            <img 
+                                class="cars__img"
+                                src="./images/camaro.png" 
+                                alt="camaro"
+                            >
+                    </div>
+                    <div class="cars__item cars__item_full-picture">
+                            <img 
+                                class="cars__img"
+                                src="./images/ford.png" 
+                                alt="ford"
+                            >
+                    </div>
+                    <div class="cars__item cars__item_vertical-picture">
+                            <img 
+                                class="cars__img"
+                                src="./images/delorian.png" 
+                                alt="delorian"
+                            >
+                    </div>
+                </div>
+            </div>
+
+            
         </section>
-    </main>
 
+        <section class="programms">
+            <div class="container">
+                <div class="programms__content">
+                    <h2 class="subtitle">
+                        Программы
+                    </h2>
+                    <div class="programms__info">
+                        <div class="programms__info-item">
+                            <img 
+                                src="./images/programms-info-logo-1.png"  
+                                alt="info-logo"
+                                class="programms__info-logo" 
+                            >
+                             <h3 class="caption">
+                                Выставка эксклюзивных автомобилей
+                             </h3>
+
+                             <div class="text">
+                                Идейные соображения высшего порядка, 
+                                а также граница обучения кадров не даёт нам иного выбора, 
+                                кроме определения укрепления моральных ценностей.
+                             </div>
+
+                        </div>
+                                <div class="programms__info-item">
+                                    <img 
+                                        src="./images/programms-info-logo-2.png"  
+                                        alt="info-logo"
+                                        class="programms__info-logo" 
+                                    >
+                                    <h3 class="caption">
+                                        Лекторий с участием легенд авто индустрии
+                                    </h3>
+        
+                                    <div class="text">
+                                        Противоположная точка зрения подразумевает, 
+                                        что действия представителей оппозиции, 
+                                        превозмогая сложившуюся непростую ситуацию.
+                                    </div>
+                                </div> 
+                                <div class="programms__info-item">
+                                    <img 
+                                        src="./images/programms-info-logo-3.png"  
+                                        alt="info-logo"
+                                        class="programms__info-logo" 
+                                    >
+                                    <h3 class="caption">
+                                        Детские активности и развлечения
+                                    </h3>
+        
+                                    <div class="text">
+                                        Современные технологии достигли такого уровня, 
+                                        что внедрение современных методик влечет за собой процесс внедрения и модернизации.
+                                    </div>
+                                </div>     
+                        </div>
+                        <div class="programms__competitions">
+                            <h2 class="subtitle">
+                                Конкурсы и призы
+                            </h2>
+                            <div class="programms__competitions-facts">
+                                <div class="programms__competitions-item">
+                                    <h2 class="caption">
+                                        Призы от спонсоров и организаторов
+                                    </h2>
+                                    <div class="text">
+                                        Призы будут разыграны среди всех участников автовыходных. 
+                                        Планируется 5 разных номинаций. 
+                                        Посетители мероприятия тоже смогут принять участие в голосовании за победителей номинаций.
+                                    </div>
+                                        <img 
+                                            src="./images/gift.png" 
+                                            alt="gift"
+                                            class="programms__competitions-img"
+                                        >
+                                </div>
+                                <div class="programms__competitions-item programms__competitions-item_secondary">
+                                    <h2 class="caption caption_secondary">
+                                        Конкурсы
+                                    </h2>
+                                    <div class="text text_secondary">
+                                        Организаторами выставки совместно с ведущими авто журналистами будет определен самый лучший новый автомобиль на выставке, представленный посетителям на фестиваля. 
+                                        Так же будут выявлены лучшие фотографы в соц сетях посетившие фестиваль, в рамках конкурса на лучшую фотографию.
+                                        Посетители тоже получат возможность поучаствовать в различных конкурсах и выиграть ценные призы.
+                                    </div>
+                                        <img 
+                                            src="./images/trophy.png" 
+                                            alt="trophy"
+                                            class="programms__competitions-img"
+                                        >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> 
+            </div>
+            <div class="divider divider_third"></div>
+        </section>
+        
+
+        <section class="price">
+            <div class="divider divider_full">
+                <div class="divider__content">
+                    <div class="divider__item divider__item_ellipse">
+                        <img 
+                            src="./images/ticket.png" 
+                            alt="ticket"
+                        >
+                    </div>
+                    <div class="divider__item">Билеты</div>
+
+                    <div class="divider__item divider__item_ellipse">
+                        <img 
+                            src="./images/ticket.png" 
+                            alt="ticket"
+                        >
+                    </div>
+                    <div class="divider__item">Билеты</div>
+
+                    <div class="divider__item divider__item_ellipse">
+                        <img 
+                            src="./images/ticket.png" 
+                            alt="ticket"
+                        >
+                    </div>
+                    <div class="divider__item">Билеты</div>
+
+                    <div class="divider__item divider__item_ellipse">
+                        <img 
+                            src="./images/ticket.png" 
+                            alt="ticket"
+                        >
+                    </div>
+                    <div class="divider__item">Билеты</div>
+
+                    <div class="divider__item divider__item_ellipse">
+                        <img 
+                            src="./images/ticket.png" 
+                            alt="ticket"
+                        >
+                    </div>
+                    <div class="divider__item">Билеты</div>
+
+                    <div class="divider__item divider__item_ellipse">
+                        <img 
+                            src="./images/ticket.png" 
+                            alt="ticket"
+                        >
+                    </div>
+                    <div class="divider__item">Билеты</div>
+                </div>
+            </div> 
+
+            <div class="container">
+                <div class="price__tickets">
+                    <div class="price__ticket">
+                        <span class="text text_small">
+                            Билет на 1 день выставки
+                        </span>
+
+                        <div class="price__ticket-divider"></div>
+
+                        <div class="price__ticket-wrapper">
+                            <div class="price__ticket-slash text">
+                                \ 
+                            </div>
+                            <span class="text text_small">
+                                Позволяет получить доступ к статичной выставке автомобилей 
+                                и всем зонам мероприятия в течении одного дня.
+                            </span>
+                        </div>
+                        <div class="price__ticket-button-wrapper">
+                            <span class="price__tag">
+                                800 ₽
+                            </span>
+                            <button type="button" class="button button_third">
+                                Купить билет
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="price__ticket"> 
+                        <span class="text text_small">
+                            Билет на 2 дня выставки
+                        </span>
+
+                        <div class="price__ticket-divider"></div>
+
+                        <div class="price__ticket-wrapper">
+                            <div class="price__ticket-slash text">
+                                \ 
+                            </div>
+                            <span class="text text_small">
+                                Позволяет получить доступ к статичной выставке автомобилей 
+                                и всем зонам мероприятия в течении всех выходных.
+                            </span>
+                        </div>
+                        <div class="price__ticket-button-wrapper">
+                            <span class="price__tag">
+                                1 000 ₽
+                            </span>
+                            <button type="button" class="button button_third">
+                                Купить билет
+                            </button>
+                        </div>
+                    </div>
+                    <div class="price__ticket">
+                        <span class="text text_small">
+                            VIP Билет
+                        </span>
+
+                        <div class="price__ticket-divider"></div>
+
+                        <div class="price__ticket-wrapper">
+                            <div class="price__ticket-slash text">
+                                \ 
+                            </div>
+                            <span class="text text_small">
+                                Доступ на территорию любой день проведения мероприятия, доступ в VIP зону и фуршету.
+                            </span>
+                        </div>
+                        <div class="price__ticket-button-wrapper">
+                            <span class="price__tag">
+                                6 000 ₽
+                            </span>
+                            <button type="button" class="button button_third">
+                                Купить билет
+                            </button>
+                        </div>
+                    </div>
+                    <div class="price__ticket price__ticket_safety">
+                        <img 
+                            src="./images/shield-check.png" 
+                            alt="shield-check"
+                        >
+                       <h3 class="caption">
+                            Безопасность
+                       </h3>
+
+                        <ul class="price_ticket-list">
+                            <li class="price__ticket-option">
+                                <span class="text">
+                                    Дежурная скорая помощь вблизи статичной и динамичной зоны
+                                </span>
+                            </li>
+                            <li class="price__ticket-option">
+                                <span class="text">
+                                    Дежурный патруль ЧОП в каждой зоне
+                                </span>
+                            </li>
+                            <li class="price__ticket-option">
+                                <span class="text">
+                                   Отряд полиции на каждом входе с металлодетекторами
+                                </span>
+                            </li>
+                            <li class="price__ticket-option">
+                                <span class="text">
+                                    Волонтеры
+                                </span>
+                            </li>
+                        </ul>
+                
+                        </span>
+                    </div>
+                </div> 
+                <div class="price__info">
+                    <h3 class="caption">
+                        Информация о стоимости билетов
+                    </h3>
+
+                    <div class="price__table">
+                        <div class="price__table-row price__table-row_header">
+                            <div class="price__table-cell text">
+                                Дата
+                            </div>
+
+                            <div class="price__table-cell text">
+                                Билет на 1 день
+                            </div>
+
+                            <div class="price__table-cell text">
+                                Билет на 2 дня
+                            </div>
+
+                            <div class="price__table-cell text">
+                                VIP Билет
+                            </div>
+                        </div>
+                        <div class="price__table-row">
+                            <div class="price__table-cell text">
+                                до 1 августа
+                            </div>
+
+                            <div class="price__table-cell text">
+                                800 руб.
+                            </div>
+
+                            <div class="price__table-cell text">
+                                1 000 руб.
+                            </div>
+
+                            <div class="price__table-cell text">
+                                6 000 руб.
+                            </div>
+                        </div>
+                        <div class="price__table-row">
+                            <div class="price__table-cell text">
+                                с 1 до 27 августа
+                            </div>
+
+                            <div class="price__table-cell text">
+                                1 000 руб.
+                            </div>
+
+                            <div class="price__table-cell text">
+                                1 500 руб.
+                            </div>
+
+                            <div class="price__table-cell text">
+                                7 500 руб.
+                            </div>
+                        </div>
+                        <div class="price__table-row">
+                            <div class="price__table-cell text">
+                                В кассах
+                            </div>
+
+                            <div class="price__table-cell text">
+                                1 200 руб.
+                            </div>
+
+                            <div class="price__table-cell text">
+                                1 800 руб.
+                            </div>
+
+                            <div class="price__table-cell text">
+                                8 500 руб.
+                            </div>
+                        </div>
+                        <div class="price__bottom">
+                            <button class="button button_benefits">
+                                Льготы
+                                <img 
+                                    src="./images/benefits.png" 
+                                    alt="benefits"
+                                >
+                            </button>
+                               
+                            <div class="info-outline">
+                                <span class="text bottom__outline_text">
+                                    Вход для детей до 7 лет бесплатный
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <div class="divider__price-bottom"></div>
+    </main> -->
     <footer class="footer">
-
+                
     </footer>
 </body>
 </html>

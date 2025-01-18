@@ -25,4 +25,29 @@
     width: 282px;
 }
 
+.button_third {
+    width: 100%;
+    background-color: var(--third-button-background-color);
+    color: var(--third-button-text-color);
+    border: none;
+}
+
+.button_benefits {
+    width: 151px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 40px;
+    border: 2px solid var(--benefits-button-text-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s;
+}
+
+@media (max-width: 320px) {
+    .button {
+        width: 100%;
+    }
+}
 

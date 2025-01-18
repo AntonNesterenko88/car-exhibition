@@ -1,0 +1,108 @@
+.price {
+    padding: 120px 0 115px 0;
+    position: relative;
+    background-color: var(--main-competitions-block-background-color);
+}
+
+.price__tickets {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price__ticket {
+    position: relative;
+    width: 360px;
+    height: 433px;
+    padding: 30px;
+    background-color: var(--ticket-background-color);
+    border-radius: 40px;
+}
+
+.price__ticket-divider {
+    margin-top: 29px;
+    width: 100%;
+    height: 1px;
+    background-color: var(--ticket-divider-background-color);
+}
+
+.price__ticket-wrapper {
+    margin-top: 30px;
+    display: flex;
+}
+
+.price__ticket-slash {
+    min-width: 17px;
+}
+
+.price__tag {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.price__ticket-button-wrapper {
+    padding: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.price__ticket .button {
+    margin-top: 20px;
+}
+
+.price__ticket_safety {
+    padding: 0;
+    background: transparent;
+}
+
+.price__ticket .caption {
+    margin-top: 20px;
+}
+
+.price__ticket-list {
+    padding: 0 0 0 15px;
+    margin: 20px 0 0;
+}
+
+.price__info {
+    margin-top: 100px;
+}
+
+.price__table {
+    margin-top: 50px;
+}
+
+.price__table-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 84px;
+    border-bottom: 1px solid var(--secondary-border-color);
+}
+
+.price__table-row_header {
+    align-items: start;
+    height: 54px;
+    border-bottom: 2px solid var(--main-border-color);
+}
+
+.price__table-cell {
+    width: 390px;
+}
+
+.price__table-row_header > .price__table-cell {
+    color: var(--third-text-color);
+}
+
+.price__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-outline {
+    left: 0;
+}
+
