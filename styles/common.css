@@ -56,3 +56,50 @@
 .link {
     cursor: pointer;
 }
+
+@media (max-width:1024px) {
+
+    .header {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .container{
+        padding:0 47px;
+    }
+
+    .descriptor {
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+
+    .title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .text {
+        font-size: 15px;
+        line-height: 22.5px;
+    }
+}
+
+@media (max-width:320px) {
+    .container {
+        padding: 0 18px;
+    }
+
+    .descriptor {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .title {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

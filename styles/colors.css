@@ -7,8 +7,7 @@
         /* photo-link */
     --photo-link-main-background-color:#8EAAAB;
     --photo-link-secondary-background-color: #1E1E25;
-
-    --main-border-color: #C1C1C1;
+    --main-border-color: #C1C1C1; 
 
     /* competitions block */
     --main-competitions-block-background-color:#D2E3ED;
@@ -33,6 +32,11 @@
         /* third-button */
     --third-button-background-color: #D0E4D9;
     --third-button-text-color: #373737;
+        
+        /* benefits-button */
+    --benefits-button-background-color: #D0E4D9;
+    --benefits-button-text-color: #1E1E25;
+
         /* ticket */
       --ticket-background-color: #FFFFFF;
       --ticket-divider-background-color: #1E1E25;

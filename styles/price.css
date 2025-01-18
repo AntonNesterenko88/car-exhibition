@@ -96,3 +96,13 @@
     color: var(--third-text-color);
 }
 
+.price__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-outline {
+    left: 0;
+}
+
