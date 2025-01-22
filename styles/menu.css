@@ -44,23 +44,102 @@
     color: var(--main-backgound-color-button);
 }   
 
+.menu__burger {
+    display: none;
+}
+
 @media (max-width:1024px) {
     .menu {
         height: 98px;
     }
 }
 
+
 @media (max-width: 320px) {
     .menu {
-        padding-top: 15px 0;
-        height: 68px;
+        padding-top: 15px;
+        height: 38px;
     }
 
-    .menu__list {
+    .menu__burger {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        right: 15px;
+        width: 23px;
+        height: 18px;
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    .menu__burger span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: var(--main-text-color);
+        transition: .5s transform;
+    }
+
+    .menu__checkbox:checked + .menu__burger > span:first-child,
+    .menu__checkbox:checked + .menu__burger > span:last-child {
+        display: block;
+        position: absolute;
+        top: 50%;
+    }
+
+    .menu__checkbox:checked + .menu__burger > span:nth-child(2) {
         display: none;
     }
 
-    .header_date {
-        margin-top: 37px;
+    .menu__checkbox:checked + .menu__burger > span:first-child {
+        transform: translateY(-50%) rotate(45deg);
+    }
+
+    .menu__checkbox:checked + .menu__burger > span:last-child {
+        transform: translateY(-50%) rotate(-45deg);
+    }
+
+    .menu__navbar {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0 18px;
+        width: 0;
+        height: 0;
+        background-color: var(--secondary-text-color);
+        transition: .5s width, .5s height;
+    }
+
+    .menu__checkbox:checked + .menu__burger + .menu__navbar {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .menu__list {
+        width: 0;
+        margin: 0 0 0 auto;
+        padding: 0;
+        height: 176px;
+        margin-top: 123px;
+        flex-direction: column;
+        align-items: end;
+        transition: .3s width;
+    }
+
+    .menu__item {
+        width: inherit;
+    }
+
+    .menu__link {
+        width: inherit;
+        display: block;
+        overflow: hidden
+    }
+
+    .menu__checkbox:checked 
+    + .menu__burger 
+    + .menu__navbar > .menu__list {
+        width: 106px;
     }
 }

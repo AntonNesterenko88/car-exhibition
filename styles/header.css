@@ -75,12 +75,21 @@
 }
 
 @media (max-width: 320px) {
+    .header {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
     .header__partners {
         width: auto;
         margin-top: 45px;
     }
 
-    .header_title, 
+    .header__date {
+        margin-top: 37px;
+    }
+
+    .header__title,
     .header__text,
     .header__buttons-wrapper {
         margin-top: 20px;
@@ -90,8 +99,8 @@
         flex-wrap: wrap;
     }
 
-    .header__buttons-wrapper > .button:first-child  {
-        margin:0 0 10px;
+    .header__buttons-wrapper > .button:first-child {
+        margin: 0 0 10px;
     }
 
     .header__arrow {
