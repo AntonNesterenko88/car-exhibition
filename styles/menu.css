@@ -44,7 +44,8 @@
     color: var(--main-backgound-color-button);
 }   
 
-.menu__burger {
+.menu__burger,
+.menu__checkbox {
     display: none;
 }
 
