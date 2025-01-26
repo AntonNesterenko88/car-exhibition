@@ -19,3 +19,32 @@
     max-width: 620px;
     margin-right: 160px;
 }
+
+@media (max-width:1024px) {
+    .museum-info{
+        padding-top: 40px 0 80px;
+    }
+    .museum-info__block:first-child {
+        margin-right: 0;
+    }
+
+    .museum-info__wrapper {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width:320px) {
+    .museum-info{
+        padding: 0 0 38px;
+    }
+
+    .museum-info__wrapper {
+        flex-direction: column;
+    }
+
+    .museum-info__block:first-child {
+        margin-bottom: 30px;
+    }
+
+    
+}
