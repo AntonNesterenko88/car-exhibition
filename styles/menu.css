@@ -19,11 +19,6 @@
     transition: .4s background-color, .4s top;
 }
 
-.menu:hover .menu__wrapper {
-    top: 0;
-    background-color: var(--menu-background-color);
-}
-
 .menu__list {
     display: flex;
     justify-content: space-between;
@@ -50,9 +45,23 @@
 }
 
 @media (max-width:1024px) {
+
     .menu {
-        height: 98px;
+        position: static;
+        height: 38px;
     }
+
+    .menu__wrapper {
+        position: static;
+    }
+
+    .menu__wrapper.container {
+        padding: 0;
+    }
+
+    .menu:hover .menu__wrapper {
+        background-color: transparent ;
+    }    
 }
 
 
